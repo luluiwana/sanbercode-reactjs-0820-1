@@ -18,9 +18,9 @@ img{
     float: left;
 }
 section{
-    margin: 80px 250px 10px 250px;
+    margin: 10% 10% 2% 10%;
     background-color: white;
-    padding: 30px;
+    padding: 3%;
 }
 body{
     margin: 0px;
@@ -36,6 +36,8 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 7px 0 7px 0;
-    font-size: 12px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
