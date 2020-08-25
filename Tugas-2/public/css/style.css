@@ -7,23 +7,28 @@ header {
     width: 100%;
   }
   
-  li {
+  .navigation {
     float: right;
     padding: 10px;
     list-style-type: none;
     font-size: 12px;
   }
+ol{
+    font-size: 14px;
+}
   
 img{
     float: left;
 }
 section{
-    margin: 10% 10% 2% 10%;
+    margin: 10% 10% 10% 10%;
     background-color: white;
-    padding: 3%;
+    padding: 9px;
 }
 body{
     margin: 0px;
+    background-image: url("../img/pattern.jpg");
+    font-size: 14px;
 }
 h1{
     text-align: center;
@@ -40,4 +45,23 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
+}
+table{
+    width: 40%;
+}
+textarea{
+    width: 100%;
+}
+.link{
+    margin-left:10%;
+}
+li{
+    padding-top: 5px;
+}
+.sec{
+    border: 2px solid #c6c6c6;
+    padding: 10px;
+}
+input{
+    font-size: 12px;
 }
