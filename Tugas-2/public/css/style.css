@@ -1,0 +1,41 @@
+header {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 12px;
+  }
+  
+img{
+    float: left;
+}
+section{
+    margin: 80px 250px 10px 250px;
+    background-color: white;
+    padding: 30px;
+}
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+div{
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 12px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px 0 7px 0;
+    font-size: 12px;
+}
