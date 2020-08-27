@@ -30,8 +30,8 @@ for (var i = 1; i <= 20; i++) {
 
 // soal 3
 
-for (let tagar = "#"; tagar.length < 8; tagar += "#"){
-  console.log(tagar);
+for (var pagar = "#"; pagar.length <=7; pagar = pagar + "#"){
+console.log(pagar);
 }
 
 // soal 4
