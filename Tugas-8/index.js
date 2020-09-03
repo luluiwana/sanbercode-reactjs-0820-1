@@ -9,15 +9,17 @@ var books = [
     {name: 'komik', timeSpent: 1000}
 ]
 
-let i = 1;
-let a = 0;
-function buku(book){
-	readBooks(10000, book, function(){
-		if(a<4){
-			buku(books[a]);
-			i++;a++;
-		}
-	}) 
+
+var antrian = books.length;
+var time = 10000;
+function run(time, ind, antrian){
+	readBooks(time, books[ind], function(sisaWaktu){
+	time = sisaWaktu;
+	antrian--;
+	if(antrian>0){
+		run(time, ind+1, antrian);
+	}	
+	})	
 }
 
-buku(books[a])
+run(time, 0, antrian)
